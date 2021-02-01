@@ -1,0 +1,60 @@
+.top{
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.top img{
+    vertical-align: middle;
+}
+.middle-1{
+    position: relative;
+    max-width: 40%;
+    margin-left: 12.5%;
+}
+.middle-2{
+    margin-right: 12.5%;
+    position: relative;
+    float: right;
+    top: -100px;
+    max-height: 500px;
+}
+.middle-3{
+    position: relative;
+    margin-left: 12.5%;
+    max-width: 40%;
+
+}
+.middle-4{
+    position: relative;
+    max-width: 40%;
+    margin-left: 12.5%;
+}
+.middle-5{
+    position: relative;
+    max-width: 40%;
+    margin-left: 12.5%;
+}
+
+.middle-6 h2{
+    background:orangered;
+    height: 80px;
+    align-items: center;
+    display:flex;
+    text-indent: 10px;
+
+}
+.middle-5 p{
+    text-align: right;    
+}
+
+.middle-5 hr{
+    border: 15px solid rgb(255, 166, 0);
+}
+.bottom {
+    position: relative;
+    top: 50px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: center;
+}
