@@ -1,0 +1,37 @@
+body{
+    background-color: gray;
+}
+.box{
+    background-color: antiquewhite;
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.top{
+    padding-top: 20px;
+    text-align: center;
+}
+.middle{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.middle p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+}
+.bottom p{
+    text-align: right;
+}
+form{
+    width: 100%;
+}
