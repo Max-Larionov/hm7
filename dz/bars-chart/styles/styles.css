@@ -1,0 +1,75 @@
+#graph{
+    width: 1000px;
+    background-color: #333;
+    padding: 5px;
+    margin: 100px auto;
+    height: 350px;
+}
+ul{
+    list-style: none;
+}
+.l-1{
+    height: 30px;
+    display: inline-block;
+    background-color: green;
+    width: 45%;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+}
+.l-2{
+    height: 30px;
+    display: inline-block;
+    background-color: green;
+    width: 25%;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+}
+.l-3{
+    height: 30px;
+    display: inline-block;
+    background: green ;
+    background: linear-gradient(to right, green, #333);
+    width: 5%;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+}
+.l-4{
+    height: 30px;
+    display: inline-block;
+    background-color: green;
+    width: 50%;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+}
+.l-5{
+    height: 30px;
+    display: inline-block;
+    background-color: green;
+    width: 30%;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+}
+.l-6{
+    height: 30px;
+    display: inline-block;
+    background-color: green;
+    width: 10%;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+}
+.l-7{
+    height: 30px;
+    display: inline-block;
+    background: green ;
+    background: linear-gradient(to right, green, #333);
+    width: 5%;
+    padding: 5px;
+    color: white;
+    margin: 1px;
+}
