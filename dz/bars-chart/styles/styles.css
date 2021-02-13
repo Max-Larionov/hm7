@@ -28,17 +28,24 @@ ul{
 }
 .l-3{
     height: 30px;
-    display: inline-block;
+    display: block;
+    position: relative;
     background: green ;
-    background: linear-gradient(to right, green, #333);
-    width: 5%;
+    width: 2.5%;
     padding: 5px;
-    color: white;
     margin: 1px;
+}
+.t{
+    height: 30px;
+    display: block; 
+    position: relative;
+    color: white;
+    margin-top: -40px;
+    padding: 5px;
 }
 .l-4{
     height: 30px;
-    display: inline-block;
+    display: block;
     background-color: green;
     width: 50%;
     padding: 5px;
@@ -67,9 +74,7 @@ ul{
     height: 30px;
     display: inline-block;
     background: green ;
-    background: linear-gradient(to right, green, #333);
-    width: 5%;
+    width: 2.5%;
     padding: 5px;
-    color: white;
     margin: 1px;
 }
