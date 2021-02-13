@@ -1,0 +1,45 @@
+#chat{
+    background: #999;
+    background: linear-gradient(#444,#b8b6b6,#444 );
+    height: 100px;
+}
+body{
+    margin: 0px;
+}
+.i-1{
+    margin-top: 25px;
+    margin-left: 15%;
+}
+.l-1{
+    display: block;
+    margin-left: 10px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 20%;
+    color: white;
+}
+.content{
+    display: block;
+    margin-left: 50%;
+    position: relative;
+    margin-top: -30px;
+    color: white;
+}
+.i-2{
+    height: 15px;
+}
+.footer{
+    border-left: rgb(230, 227, 227) solid 1px;
+    display: block;
+    margin-left: 75%;
+    position: relative;
+    margin-top: -52px;
+    color: white;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
