@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #222;
+        }
+        #city{
+            width: 400px;
+            height: 400px;
+            background-color: aliceblue;
+            border: 5px solid cadetblue;
+        }
+        #squere{
+            font-size: 50px;
+            color: white;
+            width: 150px;
+            height: 150px;
+            background-color: darkgray;
+            display: inline-block;
+            margin-right: -4px;
+            vertical-align: top;
+            text-align: center;
+            line-height: 150px;
+
+        }
+        .streetA{
+            display: inline-block;
+            width: 250px;
+            height: 150px;
+            background-color: dimgray;
+        }
+        .streetB{
+            margin-top: -4px;
+            width: 150px;
+            height: 250px;
+            background-color: dimgray;
+            display: inline-block;
+        }
+        .line-band-a{
+            height: 73px;
+            border-bottom: 2px solid white;
+        }
+        .line-band-b{
+            border-right: 2px solid white;
+            width: 73px;
+            height: inherit;
+        }
+        .band-marker-bl{
+            width: 36px;
+            border-right: 2px dotted white;
+            height: inherit;
+        }
+        .band-marker-br{
+            width: 109px;
+            border-right: 2px dotted white;
+            height: inherit;
+        }
+        .band-marker-ab{
+            height: 109px;
+            width: inherit;
+            border-bottom: 2px dotted white;
+        }
+        .band-marker-at{
+            height: 36px;
+            width: inherit;
+            border-bottom: 2px dotted white;
+        }
+        .park{
+            height: 250px;
+            width: 250px;
+            display: inline-block;
+            margin-top: -4px;
+            margin-left: -4px;
+            vertical-align: top;
+            font-size: 50px;
+            color: green;
+            line-height: 83px;
+        }
+    </style>
+</head>
+<body>
+    <div id="city">
+        <div id="squere">♞</div>
+        <div class="streetA">
+            <div class="band-marker-at">
+                <div class="line-band-a">
+                    <div class="band-marker-ab"></div>
+                </div>
+            </div>
+        </div>
+        <div class="streetB">
+            <div class="band-marker-br">
+                <div class="line-band-b">
+                    <div class="band-marker-bl"></div>
+                </div>
+            </div>
+        </div>
+        <div class="park">
+            🎄 🎄 🎄 🎄<br>🎄 🎄 🎄 🎄<br>🎄 🎄 🎄 🎄
+        </div>
+    </div>
+</body>
+</html>
