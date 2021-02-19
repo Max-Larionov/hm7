@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #223;
+        }
+        .house{
+            display: inline-block;
+            margin-right: 30px;
+        }
+        .h-roof{
+            height: 0px;
+            width: 0px;
+            border: 75px solid brown;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 90px;
+        }
+        .h-wall{
+            width: 150px;
+            height: 150px;
+            background-color: antiquewhite;
+        }
+        .h-window{
+            border: 5px solid brown;
+            width: 50px;
+            height: 50px;
+            transform: translateX(45px) translateY(45px);
+        }
+        .w-frame1{
+            border-right: brown solid 3px;
+            border-bottom: brown solid 3px;
+            width: 20px;
+            height: 20px;
+        }
+        .w-frame2{
+            border-top: solid brown 3px;
+            border-left: brown solid 3px;
+            width: 30px;
+            height: 30px;
+            transform: translateX(20px) translateY(-3px);
+        }
+        .tall-building{
+            display: inline-block;
+           
+        }
+        .t-b-roof{
+            width: 40px;
+            border: 30px solid brown;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 20px;
+        }
+        .t-b-wall{
+            height: 300px;
+            width: 100px;
+            background-color: bisque;
+        }
+        .t-b-window1{
+            border: 5px solid brown;
+            width: 25px;
+            height: 25px;
+            transform: translateX(30px) translateY(50px);
+        }
+        .t-b-w-frame1{
+            border-right: 2px solid brown;
+            width: 12px;
+            height: 25px;
+        }
+        .t-b-window2{
+            border: 5px solid brown;
+            width: 25px;
+            height: 25px;
+            transform: translateX(30px) translateY(150px);
+        }
+        .t-b-w-frame2{
+            border-right: 2px solid brown;
+            width: 12px;
+            height: 25px;
+            }
+        .t-b-balcony1{
+            background-color: bisque;
+            border: 1px solid brown;
+            width: 10px;
+            height: 25px;
+            transform: translateX(-12px) translateY(-15px);
+        }
+        .t-b-balcony2{
+            background-color: bisque;
+            border: 1px solid brown;
+            width: 10px;
+            height: 25px;
+            transform: translateX(-12px) translateY(95px);
+        }
+        .cloud{
+            padding: 20px 10px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .small-building{
+            display: inline-block;
+        }
+        .s-b-roof{
+            width: 100px;
+            border: 75px solid brown;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-width: 20px;
+        }
+        .s-b-wall{
+            height: 100px;
+            width: 250px;
+            background-color: burlywood;
+        }
+        .s-b-window1{
+            border: 5px solid brown;
+            width: 25px;
+            height: 25px;
+            transform: translateX(50px) translateY(30px);
+        }
+        .s-b-w-frame1{
+            border-right: 2px solid brown;
+            width: 12px;
+            height: 25px;
+        }
+        .s-b-window2{
+            border: 5px solid brown;
+            width: 25px;
+            height: 25px;
+            transform: translateX(170px) translateY(-5px);
+        }
+        .s-b-w-frame2{
+            border-right: 2px solid brown;
+            width: 12px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="street">
+        <div class="house">
+            <div class="h-roof"></div>
+            <div class="h-wall">
+                <div class="h-window">
+                    <div class="w-frame1"></div>
+                    <div class="w-frame2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="tall-building">
+            <div class="t-b-roof"></div>
+            <div class="t-b-wall">
+                <div class="t-b-window1">
+                    <div class="t-b-w-frame1"></div>
+                </div>
+                <div class="t-b-window2">
+                    <div class="t-b-w-frame2"></div>
+                </div>
+                <div class="t-b-balcony1"></div>
+                <div class="t-b-balcony2"></div>
+
+            </div>
+        </div>
+        <div class="cloud">
+            <img src="images/cloud-icon.png" alt="">
+        </div>
+        <div class="small-building">
+            <div class="s-b-roof"></div>
+            <div class="s-b-wall">
+                <div class="s-b-window1">
+                    <div class="s-b-w-frame1"></div>
+                </div>
+                <div class="s-b-window2">
+                    <div class="s-b-w-frame2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
