@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        .folder{
+            color: white;
+            list-style: none;
+            background-image: url(images/Actions-document-open-icon.png);
+            background-repeat: no-repeat;
+            padding: 26px 74px;
+            list-style-type: "┠";
+            font-size: 64px;
+            line-height: 16px;
+        }
+        .empty{
+            background-image: url(images/Actions-document-open-folder-icon.png);
+        }
+        .folder:last-child{
+            list-style-type: "┖";
+        }
+        .name{
+            font-size: 16px;
+        }
+        .file{
+            color: white;
+            list-style: none;
+            background-image: url(images/Actions-document-properties-icon.png);
+            background-repeat: no-repeat;
+            padding: 26px 74px;
+            list-style-type: "┠";
+            font-size: 64px;
+            line-height: 16px;
+            width: 100px;
+        }
+        .folder:hover{
+            background-color: #999;
+            color: rgb(29, 59, 233);
+            border: 2px solid antiquewhite;
+            border-radius: 5px;
+            transition: 0.25s;
+        }
+        .file:hover{
+            background-color: #777;
+            color: brown;
+            border: 2px solid antiquewhite;
+            border-radius: 5px;
+            transition: 0.25s;
+        }
+        ul#childlist{
+            display:none;
+        }
+
+        ul#parentlist li:hover ul#childlist{ 
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul class="tree" id="parentlist">
+        <li class="folder">
+            <div class="name"> PROJECT [DONE]</div>
+            <ul id="childlist">
+                <li class="file"><div class="name">FILE-1</div></li>
+                <li class="file"><div class="name">FILE-2</div></li>
+            </ul>
+        </li>
+        <li class="folder"> 
+            <div class="name"> PROJECT [NOW]</div>
+        </li>
+        <li class="folder empty"> 
+            <div class="name"> PROJECT [TBD]</div>
+        </li>
+    </ul>
+</body>
+</html>
