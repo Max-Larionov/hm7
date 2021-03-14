@@ -1,0 +1,46 @@
+body{
+    background-color: #555;
+    margin: 0px;
+}
+.subscribtion-form{
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.subscribtion-form h1{
+    margin-bottom: 10px;
+}
+.subscribtion-form>label,
+.subscribtion-form>.options>div{
+    display: block;
+    padding: 5px;
+}
+.subscribtion-form>label>input{
+    padding: 10px;
+    background-color: #bbb;
+    border-radius: 15px;
+}
+.subscribtion-form>label>input:focus{
+    background-color: #fff;
+    border: 2px solid darkorange;
+    outline: none;
+}
+.subscribtion-form >button{
+    padding: 10px;
+    border-radius: 15px;
+}
+.subscribtion-form >button:hover{
+    background-color: darkorange;
+}
+.subscribtion-form >.options input{
+    display: none;
+}
+.subscribtion-form .options label:before{
+    content: "□";
+    color: #999;
+}
+.subscribtion-form .options input:checked+label:before{
+    content: "▣";
+    color: darkorange;
+}

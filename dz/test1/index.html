@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Business Card Example</title>
+  <style>
+    body{
+      background-color: #EEE;
+      color: white;
+    }
+    h1,h2,p,ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-family: sans-serif;
+    }
+    #business-card{
+      background-color: #111;
+      width: 400px;
+      height: 200px;
+      margin: 200px auto;
+      box-shadow: 10px 5px 5px #777;
+      border: 2px #777 solid;
+      border-radius: 3px;
+    }
+     #business-card .name{
+        margin: 60px 0px 50px 35px;
+        text-align: right;
+        float: left;
+    }
+    #business-card .info{
+        border-left: 2px solid white;
+        padding-left: 5px;
+        margin: 50px 20px 50px 180px;
+    }
+    #business-card .name h1{
+      font-size: 28px;
+    }
+    #business-card .name h2{
+      font-size: 20px;
+      color: rgb(189, 164, 123);
+      text-transform: uppercase;
+    }
+    #business-card .name small{
+      color: #999;
+    }
+    #business-card .info li{
+      color: #999;
+      font-size: 12px;
+      padding: 3px; 
+    }
+    #business-card .info li:first-child:before{
+      content: "📱";
+      padding-right: 3px;
+      color: rgb(189, 164, 123);
+    }
+    #business-card .info li:nth-child(2):before{
+      content: "📩";
+      padding-right: 3px;
+      color: rgb(189, 164, 123);
+    }
+    #business-card .info li:nth-child(3):before{
+      content: "🌏";
+      padding-right: 3px;
+      color: rgb(189, 164, 123);
+    }
+  </style>
+</head>
+<body>
+  <div id="business-card">
+
+    <div class="name">
+      <h1>Firstname</h1>
+      <h2>Lastname</h2>
+      <small>web designer &#47; developer</small>
+    </div>
+    <div class="info">
+      <p>12345 Some Street, City<br>State, Province, Country</p>
+       <ul>
+         <li>+00 22 333444</li>
+         <li>email@somemail.example</li>
+         <li>www.exampledomain.example</li>
+       </ul>
+    </div>
+
+  </div>
+</body>
+</html>
