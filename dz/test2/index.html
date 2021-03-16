@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Найдите Ошибки</title>
+    <style>
+        h2{
+            color: green;
+        }
+        h1{
+            color: red;
+        }
+        p{
+            color: blue;
+        }
+        img{
+            width: 200px;
+        }
+        #images-ul{
+            background-color: black;
+        }
+        .menu{
+            background-color: green;
+        }
+    </style>
+</head>
+<body style="background: red;">
+    <header itemscope itemtype="http://schema.org/Article">
+        <h2 itemprop="name"> Проверь свои знания по HTML и CSS.</h2>
+        <h1>Найдите ошибки в коде,<br>исправте их,<br>а ткже подумйте как можно 
+        было бы улучшить код.</h1>
+    </header>
+    <p>
+        это пример <strong> выделеного текста</strong>
+        тег <img src="url" alt=""> используется для добовления картинки. Например:
+        <img src="images/logo.jpg" itemprop="image" alt="logo">.
+    </p>
+    <p itemprop="description">
+        Тег &lt;h1&gt; представляет собой заголовок, также как и &lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;,
+        <br>
+        Тег &lt;b&gt; и &lt;strong&gt; эквиваленты.
+    </p>
+    <ul>
+        <li><a href="/1"><img src="1.jpg" alt="Image-1"> Link 1</a></li>
+        <li><a href="/2"><img src="1.jpg" alt="Image-2"> Link 2</a></li>
+        <li class="active"><a href="/3"><img src="1.jpg" alt="Image-3"> Link 3</a></li>
+        <li><a href="/4"><img src="1.jpg" alt="Image-4"> Link 4</a></li>
+        <li><a href="/5"><img src="1.jpg" alt="Image-5"> Link 5</a></li>
+    </ul>
+</body>
+</html>
