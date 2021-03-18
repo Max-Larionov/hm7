@@ -1,0 +1,36 @@
+body{
+    background-color: #234;
+}
+.carousel{
+    margin: 250px auto;
+    height: 700px;
+    width: 500px;
+    perspective: 1000px;
+}
+.carousel div{
+    width: 500px;
+    height: 0;
+    transition: 1s;
+}
+.carousel img{
+    border: 30px white solid;
+}
+.carousel>div:nth-child(3){
+    transform: rotateY(0deg);
+    transform-origin: left;
+}
+.carousel>div:nth-child(2){
+    transform: rotateY(5deg);
+    transform-origin: left;
+    filter: brightness(70%);
+}
+.carousel>div:nth-child(1){
+    transform: rotateY(0deg);
+    filter: brightness(50%);
+}
+.carousel:hover>div:nth-child(3){
+    transform: rotateY(-60deg);
+}
+.carousel:hover>div:nth-child(2){
+    transform: rotateY(-45deg);
+}
